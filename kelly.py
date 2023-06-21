@@ -15,7 +15,7 @@ def kelly_criterion(probabilidade, odd, stake):
     return kelly_fraction, valor_apostado
 
 # Interface do Streamlit
-st.title("Calculadora do Critério Kelly")
+st.title("Quanto devo apostar?")
 
 # Entrada dos dados
 probabilidade = st.number_input("Digite a probabilidade de vitória em %:", min_value=0.0, max_value=100.0, step=0.1)
