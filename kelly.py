@@ -29,3 +29,5 @@ if st.button("Calcular"):
     # Saída do resultado
     st.write("Porcentagem da stake a ser apostada: {:.2f}%".format(kelly_fraction * 100))
     st.write("Valor em reais a ser apostado: R$ {:.2f}".format(valor_apostado))
+
+st.text("Desenvolvido por Lyssandro Silveira")
